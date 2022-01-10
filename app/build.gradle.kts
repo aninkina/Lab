@@ -72,6 +72,6 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:19.0.0")
 
     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
-    implementation ("com.github.User:Repo:Tag")
+    implementation ("com.github.aninkina:Lab:b4a2011a34")
 
 }
