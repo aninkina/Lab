@@ -3,6 +3,7 @@ plugins {
     id("kotlin-android")
     id("androidx.navigation.safeargs.kotlin")
     id("org.jetbrains.kotlin.plugin.serialization") version "1.5.10"
+
 }
 
 android {
@@ -72,6 +73,5 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:19.0.0")
 
     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
-    implementation ("com.github.User:Repo:Tag")
 
 }
