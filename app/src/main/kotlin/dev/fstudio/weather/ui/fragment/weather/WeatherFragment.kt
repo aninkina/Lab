@@ -45,6 +45,9 @@ class WeatherFragment : Fragment() {
             }.onSuccess {
                 weatherAdapter = WeatherAdapter(it.list)
                 adapter = weatherAdapter
+                binding.tvName.text = it.city.name
+                binding.tvCountry.text = it.city.country
+
             }
         }
         layoutManager = LinearLayoutManager(requireContext())
